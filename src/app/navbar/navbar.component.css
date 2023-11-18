@@ -1,0 +1,27 @@
+nav ul li.active a div {
+  transform: translateY(-35px);
+  color: #fff;
+  background-color: #4caf4f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li.active a span {
+  opacity: 1;
+  transform: translateY(10px);
+}
+
+/* nav ul li .indicator {
+  background: #4caf4f;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: 2;
+  top: -50%;
+  border-radius: 50%;
+  border: 6px solid #fff;
+} */
